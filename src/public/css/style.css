@@ -1,0 +1,22 @@
+:root{
+    --hd-color-bgr : #9a2dff;
+    --color-black-fake: #999e8d;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+header{
+    background-color: var(--hd-color-bgr);
+    height: 80px;
+    z-index: -1;
+}
